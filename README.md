@@ -10,9 +10,9 @@ TODO: update MIndie-Client to be configured for arbitrary `OAuth2TokenVerify` UR
 
 ## Sub-Projects
 
-- [MIndie-IdP]()
-- [MIndie-Client]()
-- [MIndie-Profile]()
+- [MIndie-IdP](https://github.com/carrvo/mindie-idp)
+- [MIndie-Client](https://github.com/carrvo/mindie-client)
+- [MIndie-Profile](https://github.com/carrvo/mindie-profile)
 
 ### Setup
 
@@ -104,7 +104,7 @@ Copyright 2024 by carrvo
 
 ### Licenses for Sub-Projects
 
-- [MIndie-IdP]() - Copyright 2024 by carrvo. Available under the MIT license.
-- [MIndie-Client]() - Copyright 2024 by carrvo. Available under the MIT license.
-- [MIndie-Profile]() - CC0
+- [MIndie-IdP](https://github.com/carrvo/mindie-idp) - Copyright 2024 by carrvo. Available under the MIT license.
+- [MIndie-Client](https://github.com/carrvo/mindie-client) - Copyright 2024 by carrvo. Available under the MIT license.
+- [MIndie-Profile](https://github.com/carrvo/mindie-profile) - CC0
 
