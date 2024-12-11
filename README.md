@@ -6,8 +6,6 @@ A minimal self-hosted [IndieAuth](https://indieweb.org/IndieAuth) solution for t
 
 This can be used completely isolated from the internet (with TLS warnings) in a homenet or, with the additional purchase of a domain (not included) and configuring [Let's Encrypt](https://letsencrypt.org/) (not documented here), it can be used on the public internet.
 
-TODO: update MIndie-Client to be configured for arbitrary `OAuth2TokenVerify` URIs.
-
 ## Sub-Projects
 
 - [MIndie-IdP](https://github.com/carrvo/mindie-idp)
