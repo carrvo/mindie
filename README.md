@@ -1,6 +1,6 @@
 # MIndie
 
-Built upon [SelfAuth](selfauth/README.md) ([source](https://github.com/Inklings-io/selfauth)) + [MinToken](mintoken/README.md) ([source](https://github.com/Zegnat/php-mintoken.git))
+Built upon [SelfAuth](https://github.com/Inklings-io/selfauth) + [MinToken](https://github.com/Zegnat/php-mintoken.git)
 
 A minimal self-hosted [IndieAuth](https://indieweb.org/IndieAuth) solution for the home.
 
