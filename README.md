@@ -16,6 +16,20 @@ This can be used completely isolated from the internet (with TLS warnings) in a 
 
 Follow the setup of each project and they can be configured under the same server/`VirtualHost`. Doing so is a quick way to get you a self-hosted test user and test webpage that can be run entirely `localhost`.
 
+### Password Reset
+
+An additional [MIndie-Client](https://github.com/carrvo/mindie-client) is provided to reset the password for [MIndie-IdP](https://github.com/carrvo/mindie-idp).
+
+Endpoint: https://example.com/selfauth/password/reset
+
+To setup this extra endpoint (after MIndie-Client and MIndie-IdP are setup):
+1. Clone to `/usr/local/src/`
+1. Run `as-a-client.bash`
+1. Add configuration to your Apache HTTPd configuration
+    ```
+    Include /usr/local/src/mindie/password-reset.conf
+    ```
+
 ## Welcome To IndieAuth
 
 I you are like me you were probably scratching your head over two seemly simple things:
