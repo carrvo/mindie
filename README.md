@@ -99,6 +99,10 @@ Various link-like elements are searched for to discover your online social ident
 <a rel="me" href="https://github.com/myuser">My GitHub</a>
 ```
 
+This is actually *not* IndieAuth, but its own [spec](http://microformats.org/wiki/RelMeAuth)
+with the overlap of using your own user profile to sign-in.
+However, [IndieAuth.com](https://indieauth.com/) provides a way to bridge between them.
+
 #### Metadata Endpoint
 
 A special `<link>` element is searched for to discover a metadata endpoint. This endpoint is then queried to discover all the additional information that helps to protect your identity.
