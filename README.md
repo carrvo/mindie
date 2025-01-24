@@ -66,10 +66,10 @@ Each of these pieces, except the *user agent*, is available as a sub-project wit
 1. The *client service* **requests** your *IdP* metadata endpoint to **discover** the IdP URL.
 1. The *client service* **responds** to the *user agent* with the IdP URL.
 1. The *user agent* **requests** the *IdP* to **Authenticate and Authorize**.
-1. The *IdP*, upon valid credentials, **responds** to the *user agent* with an **access code**.
-1. The *user agent* **requests (including the access code)** the *client service* to complete the login.
-1. The *client service* **requests (including the access code)** the *IdP* to validate the login.
-1. The *IdP*, upon valid access code, **responds** to the *client service* with an **access token**.
+1. The *IdP*, upon valid credentials, **responds** to the *user agent* with an **authorization code**.
+1. The *user agent* **requests (including the authorization code)** the *client service* to complete the login.
+1. The *client service* **requests (including the authorization code)** the *IdP* to validate the login.
+1. The *IdP*, upon valid authorization code, **responds** to the *client service* with an **access token**.
 1. The *client service* **responds (including a cookie with the access token)** to the *user agent* with a login success.
 1. The *user agent* **requests (including the cookie with the access token)** the *client service* **webpage or resource**.
 1. The *client service* **requests (including the access token)** the *IdP* for token information (called introspection).
